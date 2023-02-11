@@ -1,0 +1,11 @@
+#######################################
+# Brew Services on Local PC
+#######################################
+# HomeBrew Services
+## MySQL
+als my brew mysql
+als myconfig sudo vi -R /opt/homebrew/etc/my.cnf
+
+## PostgreSQL
+als pg brew postgresql@14
+

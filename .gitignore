@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not dot files
+!.gitignore
+!.bash_profile
+
+# Dot files in subdirectory
+!bashrc
+!bashrc/*

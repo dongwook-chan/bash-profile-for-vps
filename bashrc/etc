@@ -1,0 +1,25 @@
+# https://stackoverflow.com/a/16957078/17387616
+# TODO: Check argc
+fs() {
+  # example
+  # fs f 
+  # fs l 
+
+  output=$1
+  pattern=$2
+
+  case $output in
+    f)	# Output name of matching file
+      cmd_line="grep -rnwl . -e $pattern"
+      ;;
+
+    l)	# Output matching line in file
+      cmd_line="grep -rnw . -e $pattern"
+      ;;
+  esac
+  
+  echo "$cmd_line"
+  eval $cmd_line
+  #echo "$cmd_line" && eval($cmd_line)
+}
+

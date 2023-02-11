@@ -1,0 +1,5 @@
+#######################################
+# Dev DB
+#######################################
+als drmq mysql -hdev-roadview-my1.ay1.krane.9rum.cc -Drcms -uroot -p
+

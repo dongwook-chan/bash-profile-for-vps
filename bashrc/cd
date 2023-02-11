@@ -1,0 +1,7 @@
+#######################################
+# Favorite Directories
+#######################################
+als dev cd $HOME/dev
+als ref cd $HOME/ref
+als test cd $HOME/test
+als dck cd $HOME/docker
